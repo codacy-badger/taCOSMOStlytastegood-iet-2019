@@ -12,7 +12,7 @@ add_library(${current_module} ${sources})
 
 add_executable(${current_test} ${tests})
 
-target_link_libraries(${current_test} ${current_module})
+target_link_libraries(${current_test} ${current_module} -static)
 
 include_directories(${CMAKE_CURRENT_LIST_DIR}/include)
 
