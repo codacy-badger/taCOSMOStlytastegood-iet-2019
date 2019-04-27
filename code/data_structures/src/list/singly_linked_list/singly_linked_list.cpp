@@ -1,4 +1,4 @@
-#include "list/singly_linked_list.hpp"
+#include "singly_linked_list.hpp"
 
 template <typename T>
 Linkedlist<T>::Linkedlist() : header(nullptr), length(0)
