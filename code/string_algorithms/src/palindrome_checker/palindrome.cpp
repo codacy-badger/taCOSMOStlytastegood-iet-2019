@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include "palindrome.hpp"
 
 using namespace std;
 
@@ -27,19 +26,4 @@ bool isPalindromeIterative(string input)
         if (input[start++] != input[end--])
             return false;
     return true;
-}
-
-int main()
-{
-    cout << boolalpha << isPalindromeRecursive("alpha") << endl; // should output false
-    cout << isPalindromeRecursive("racecar") << endl; // should output true
-    cout << isPalindromeRecursive("abba") << endl; // should output true
-
-    cout << isPalindromeReverse("alpha") << endl; // should output false
-    cout << isPalindromeReverse("racecar") << endl; // should output true
-    cout << isPalindromeReverse("abba") << endl; // should output true
-
-    cout << isPalindromeIterative("alpha") << endl; // should output false
-    cout << isPalindromeIterative("racecar") << endl; // should output true
-    cout << isPalindromeIterative("abba") << endl; // should output true
 }
