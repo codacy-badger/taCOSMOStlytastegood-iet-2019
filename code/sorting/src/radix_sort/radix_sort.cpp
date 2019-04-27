@@ -1,6 +1,5 @@
 /* Part of Cosmos by OpenGenus Foundation */
-#include <iostream>
-#include <vector>
+#include "radix_sort.hpp"
 #include <cmath>
 
 void radix_sort(std::vector<int> &data)
@@ -30,22 +29,4 @@ void radix_sort(std::vector<int> &data)
         }
         n *= 10;
     }
-}
-
-
-int main()
-{
-    using namespace std;
-    vector<int> data = {34, 12, 51, 52, 612, 456, 12, 31, 412, 123, 1, 3};
-
-    cout << "before sorting" << endl;
-    for (auto v: data)
-        cout << v << " ";
-    cout << endl;
-
-    radix_sort(data);
-    cout << "after sorting" << endl;
-    for (auto v: data)
-        cout << v << " ";
-    cout << endl;
 }

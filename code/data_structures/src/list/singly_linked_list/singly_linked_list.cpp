@@ -1,7 +1,4 @@
-#ifndef _LINKED_LIST_CPP_
-#define _LINKED_LIST_CPP_
-
-#include <iostream>
+#include "list/singly_linked_list.hpp"
 
 template <typename T>
 Linkedlist<T>::Linkedlist() : header(nullptr), length(0)
@@ -241,29 +238,4 @@ void Linkedlist<T>::destroy()
         delete pTemp;
     }
     length = 0;
-}
-
-#endif // _LINKED_LIST_CPP_
-
-int main()
-{
-    Linkedlist<int> link;
-    for (int i = 10; i > 0; --i)
-        link.rearAdd(i);
-    link.print();
-    std::cout << link.size() << std::endl;
-    Linkedlist<int> link1(link);
-    link1 = link1;
-    link1.print();
-    link1.deletePos(100);
-    link1.modify(5, 100);
-    link1.insert(3, 50);
-    std::cout << link1.size() << std::endl;
-    link1.print();
-
-    link1.sort();
-    link1.print();
-    link1.destroy();
-    std::cout << link1.size() << std::endl;
-    return 0;
 }

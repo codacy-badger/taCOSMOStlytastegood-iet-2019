@@ -1,8 +1,9 @@
+#include "scheduling/round_robin_scheduling.hpp"
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int main()
+int round_robin()
 {
     int flag = 0, timeQuantum;
     int n, remain;

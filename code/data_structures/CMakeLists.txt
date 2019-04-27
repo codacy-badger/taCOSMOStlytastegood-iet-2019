@@ -1,8 +1,8 @@
 
 set(sources
-	${CMAKE_CURRENT_LIST_DIR}/src/fast_inverse_sqrt/fast_inverse_sqrt.cpp)
+	${CMAKE_CURRENT_LIST_DIR}/src/list/singly_linked_list.cpp)
 set(tests
-	${CMAKE_CURRENT_LIST_DIR}/test/test_fast_inverse_sqrt.cpp)
+	${CMAKE_CURRENT_LIST_DIR}/test/test_singly_linked_list.cpp)
 get_filename_component(current_module ${CMAKE_CURRENT_LIST_DIR} NAME)
 set(current_test "${current_module}_test")
 

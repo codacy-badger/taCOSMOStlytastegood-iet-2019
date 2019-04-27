@@ -1,5 +1,5 @@
-﻿#ifndef _LINKED_LIST_HPP_
-#define _LINKED_LIST_HPP_
+﻿#ifndef _SINGLY_LINKED_LIST_HPP_
+#define _SINGLY_LINKED_LIST_HPP_
 
 template <typename T>
 struct Node
