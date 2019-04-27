@@ -14,6 +14,6 @@ add_executable(${current_test} ${tests})
 
 target_link_libraries(${current_test} ${current_module})
 
-include_directories(${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/../../test/c++/)
+include_directories(${CMAKE_CURRENT_LIST_DIR}/include)
 
 add_test(test_all ${EXECUTABLE_OUTPUT_PATH}/${current_test})
