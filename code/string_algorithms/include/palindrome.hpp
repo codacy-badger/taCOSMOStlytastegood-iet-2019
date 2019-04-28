@@ -3,8 +3,8 @@
 
 #include <string>
 
-bool isPalindromeRecursive(string input);
-bool isPalindromeReverse(string input);
-bool isPalindromeIterative(string input);
+bool isPalindromeRecursive(std::string input);
+bool isPalindromeReverse(std::string input);
+bool isPalindromeIterative(std::string input);
 
 #endif
