@@ -11,4 +11,5 @@ matrix:
           packages:
             - cmake-data
             - cmake
+          script: ./scripts/runtests.bat
   
