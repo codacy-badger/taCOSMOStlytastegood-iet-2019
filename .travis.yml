@@ -1,13 +1,13 @@
 matrix:
   include:
 
-    #C++ with g++
+    #C++ with cmake
     - os: linux
       language: cpp
       addons:
         apt:
           sources:
-	    - george-edison55-precise-backports
+            - george-edison55-precise-backports
           packages:
             - cmake-data
             - cmake
