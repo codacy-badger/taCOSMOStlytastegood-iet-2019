@@ -4,7 +4,7 @@
 template <typename T>
 Linkedlist<T>::Linkedlist() : header(nullptr), length(0)
 {
-};
+}
 
 template <typename T>
 Linkedlist<T>::Linkedlist(const Linkedlist<T> &list) : header(nullptr), length(0)
