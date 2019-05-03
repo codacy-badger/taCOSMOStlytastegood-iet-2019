@@ -24,7 +24,7 @@ int round_robin()
     }
     cout << "Enter Time Quantum:\n";
     cin >> timeQuantum;
-    int turnaroundTime;
+    int turnaroundTime = 0;
     for (int time = 0, count = 0; remain != 0;)
     {
         if (remainingTime[count] <= timeQuantum && remainingTime[count] > 0)
