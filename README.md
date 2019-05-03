@@ -1,6 +1,8 @@
-# Integration and Verification Techniques Homework
+# Welcome
 
-This repository serves as a homework assignment for the course Integration and Verification Techniques in Budapest University of Technology and Economics, Hungary. We aim to validate and improve the functionality and code quality of the mathematical library Cosmos. To stay within the scope of a homework assignment, we only analyze a fraction of the whole library and all unnecessary files were removed.
+This repository serves as a **homework assignment for the course Integration and Verification Techniques** in Budapest University of Technology and Economics, Hungary. We aim to validate and improve the functionality and code quality of the mathematical library Cosmos. To stay within the scope of a homework assignment, *we only analyze a fraction of the whole library* and all unnecessary files were removed.
+
+Below is the complete description of the Cosmos library.
 
 # Cosmos
 
