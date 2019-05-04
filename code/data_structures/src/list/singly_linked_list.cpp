@@ -198,13 +198,14 @@ int Linkedlist<T>::find(const T& date)
     Node<T> *pTemp = header;
     while (!pTemp)
     {
-        if (pTemp!=nullptr && &(pTemp->date)!=nullptr && pTemp->date == date)
+        if (pTemp->date == date)
         {
             ret = i;
             break;
         }
         i++;
-        pTemp = pTemp->pNext;
+        if(pNext!=nullptr)
+             pTemp = pTemp->pNext;
     }
     return ret;
 }
