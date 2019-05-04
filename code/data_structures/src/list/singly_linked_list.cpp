@@ -204,7 +204,7 @@ int Linkedlist<T>::find(const T& date)
             break;
         }
         i++;
-        if(pNext!=nullptr)
+        if(pTemp->pNext!=nullptr)
              pTemp = pTemp->pNext;
     }
     return ret;
