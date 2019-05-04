@@ -196,9 +196,9 @@ int Linkedlist<T>::find(const T& date)
     int i = 1;
     int ret = -1;
     Node<T> *pTemp = header;
-    while (!pTemp)
+    while (pTemp)
     {
-        if (&(pTemp->date)!=nullptr && pTemp->date == date)
+        if (pTemp->date == date)
         {
             ret = i;
             break;
