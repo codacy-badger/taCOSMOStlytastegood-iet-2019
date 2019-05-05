@@ -10,7 +10,7 @@
 #include <cstdint>
 
 #pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-W???"
+#pragma GCC diagnostic ignored "-Wstrict-aliasing"
 
 double fastInverseSqrt(double x)
 {
