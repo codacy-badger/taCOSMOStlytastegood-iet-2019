@@ -9,6 +9,9 @@
 #include "fast_inverse_sqrt.hpp"
 #include <cstdint>
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-W???"
+
 double fastInverseSqrt(double x)
 {
     float xhalf = 0.5f * x;
@@ -18,3 +21,5 @@ double fastInverseSqrt(double x)
     x = x * (1.5f - xhalf * x * x); // Newton step, repeating increases accuracy
     return x;
 }
+
+#pragma GCC diagnostic pop
