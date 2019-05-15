@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019.svg?branch=master)](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019)
+[![Coverage Status](https://coveralls.io/repos/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019/badge.svg?branch=coveralls)](https://coveralls.io/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019?branch=coveralls)
 
 # Welcome
 
