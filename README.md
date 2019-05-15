@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019.svg?branch=master)](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019)
 [![Coverage Status](https://coveralls.io/repos/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019/badge.svg?branch=master)](https://coveralls.io/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/73022a07fc3b4873b28acf1cfc8d3052)](https://www.codacy.com/app/tomcsanyigergely/taCOSMOStlytastegood-iet-2019?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BME-MIT-IET/taCOSMOStlytastegood-iet-2019&amp;utm_campaign=Badge_Grade)
 
 This repository serves as a **homework assignment for the course Integration and Verification Techniques** in Budapest University of Technology and Economics, Hungary. We aim to validate and improve the functionality and code quality of the mathematical library Cosmos. To stay within the scope of a homework assignment, *we only analyze a fraction of the whole library* and all unnecessary files were removed.
 
