@@ -29,7 +29,9 @@ if (COVERALLS)
 	set(SOURCES_FOR_CODE_COVERAGE 
 		${PROJECT_SOURCE_DIR}/code/data_structures/src/list/singly_linked_list.cpp
 		${PROJECT_SOURCE_DIR}/code/mathematical_algorithms/src/fast_inverse_sqrt/fast_inverse_sqrt.cpp
-		)
+		${PROJECT_SOURCE_DIR}/code/operating_system/src/scheduling/round_robin_scheduling/round_robin_scheduling.cpp
+		${PROJECT_SOURCE_DIR}/code/sorting/src/radix_sort/radix_sort.cpp
+		${PROJECT_SOURCE_DIR}/code/string_algorithms/src/palindrome_checker/palindrome.cpp)
 		
 	coveralls_setup(
         "${SOURCES_FOR_CODE_COVERAGE}"
