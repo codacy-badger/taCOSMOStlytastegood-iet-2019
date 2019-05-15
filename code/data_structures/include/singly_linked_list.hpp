@@ -135,7 +135,7 @@ template <typename T>
 T Linkedlist<T>::getPos(int pos) const
 {
     if (pos < 1 || pos > length)
-        std::cerr << "get element position error!" << std::endl;
+        throw "get element position error!";
     else
     {
         int i = 1;
