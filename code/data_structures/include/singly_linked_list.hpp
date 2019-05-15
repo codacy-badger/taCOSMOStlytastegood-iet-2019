@@ -276,4 +276,6 @@ void Linkedlist<T>::destroy()
     length = 0;
 }
 
+template class Linkedlist<int>;
+
 #endif
