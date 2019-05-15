@@ -27,7 +27,9 @@ endif()
 # coverage data for all the lib sources.
 if (COVERALLS)
 	set(SOURCES_FOR_CODE_COVERAGE 
-		${PROJECT_SOURCE_DIR}/code/data_structures/src/list/singly_linked_list.cpp)
+		${PROJECT_SOURCE_DIR}/code/data_structures/src/list/singly_linked_list.cpp
+		${PROJECT_SOURCE_DIR}/code/mathematical_algorithms/src/fast_inverse_sqrt/fast_inverse_sqrt.cpp
+		)
 		
 	coveralls_setup(
         "${SOURCES_FOR_CODE_COVERAGE}"

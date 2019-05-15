@@ -3,6 +3,5 @@
 #include "fast_inverse_sqrt.hpp"
 
 TEST_CASE("test one", "[sample]") {
-    //REQUIRE(fastInverseSqrt(100) == Approx(0.1));
-    REQUIRE(1==1);
+    REQUIRE(fastInverseSqrt(100) == Approx(0.1).epsilon(0.1));
 }
