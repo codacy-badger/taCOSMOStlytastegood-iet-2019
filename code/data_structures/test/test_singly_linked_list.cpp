@@ -3,5 +3,6 @@
 #include "singly_linked_list.hpp"
 
 TEST_CASE("test one", "[sample]") {
-    REQUIRE(1 == 1);
+	Linkedlist<int> list{};
+    REQUIRE(list.size() == 0);
 }

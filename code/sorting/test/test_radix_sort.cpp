@@ -3,5 +3,7 @@
 #include "radix_sort.hpp"
 
 TEST_CASE("test one", "[sample]") {
-    REQUIRE(1 == 1);
+	std::vector<int> test_data{};
+	radix_sort(test_data);
+    REQUIRE(test_data.size() == 0);
 }
