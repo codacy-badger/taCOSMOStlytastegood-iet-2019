@@ -1,5 +1,6 @@
 # Welcome
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/700de5a3a64d42be858018ba755e9bcb)](https://app.codacy.com/app/tomcsanyigergely/taCOSMOStlytastegood-iet-2019?utm_source=github.com&utm_medium=referral&utm_content=BME-MIT-IET/taCOSMOStlytastegood-iet-2019&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019.svg?branch=master)](https://travis-ci.org/BME-MIT-IET/taCOSMOStlytastegood-iet-2019)
 [![Coverage Status](https://coveralls.io/repos/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019/badge.svg?branch=master)](https://coveralls.io/github/BME-MIT-IET/taCOSMOStlytastegood-iet-2019?branch=master)
 
